@@ -38,7 +38,7 @@ This package is for publishers who wants a ready use plot configuration like lab
 
 ## Installation
 
- `pip install .`
+ `pip install scientific_papers_matplotlib`
 
 <!-- CONTRIBUTING -->
 ## Contributing
