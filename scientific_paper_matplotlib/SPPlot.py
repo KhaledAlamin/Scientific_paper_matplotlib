@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 #from matplotlib.dates import DateFormatter
-%matplotlib inline
 
 class plot():
     """
@@ -34,13 +33,15 @@ class plot():
 
 
             if zooming:
-                x1 = self.dataframe.iloc[0]
-                x2 = self.dataframe.iloc[len(self.dataframe)//3]
-                y1 = self.dataframe.index[0]
-                y2 = self.dataframe.index[len(self.dataframe)//3]
-                axins = ax.inset_axes([0.31, 0.5, 0.47, 0.47])
+                x1 = dataframe.values[0]
+                x2 = dataframe.values[len(dataframe)//3]
+                y1 = dataframe.index[0]
+                y2 = dataframe.index[len(dataframe)//3]
+                print(y1)
+                print(y2)
+                axins = ax.inset_axes([0, 0.5, 0.47, 0.47])
                 # sub region of the original image
-                axins.plot(self.dataframe.iloc[:len(self.dataframe)//3])
+                axins.plot(dataframe.iloc[:len(dataframe)//3])
                 axins.set_xlim(x1, x2)
                 axins.set_ylim(y1, y2)
                 ax.indicate_inset_zoom(axins, edgecolor="black")

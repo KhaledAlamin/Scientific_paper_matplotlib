@@ -1,17 +1,17 @@
 import setuptools
 
 requirements = ['matplotlib', 'numpy', 'pandas']
-with open("scientific_paper_matplotlib/README.md", "r") as readme_file:
+with open("README.md", "r") as readme_file:
     long_description = readme_file.read()
 
 setuptools.setup(
     name="scientific_paper_matplotlib",
-    version="0.0.1",
+    version="0.0.6",
     author="Khaled Alamin",
     author_email="khaled.alamin@gmail.com",
     description="This package is for publishers who wants a ready_use plot configuration like label size and datetime config... etc",
     long_description=long_description,
-    #long_description_content_type="text/markdown",
+    long_description_content_type='text/markdown',
     packages = ['scientific_paper_matplotlib'],
     install_requires = requirements,
     #url="https://github.com/pypa/scientific_paper_matplotlib",
