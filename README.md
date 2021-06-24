@@ -11,9 +11,11 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-      <li><a href="#about-the-project">About The Project</a>
+      <li><a href="#about-the-project">About The Project</a></li>
+      <li><a href="#dependencies">Dependencies</a></li>
       <li><a href="#installation">Installation</a></li>
-      <li><a href="#Dependencies">Dependencies</a></li>
+      <li><a href="#example">Example</a></li>
+      <li><a href="#contributing">Contributing</a></li>
       <li><a href="#license">License</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -39,6 +41,10 @@ This package is for publishers who wants a ready use plot configuration like lab
 ## Installation
 
  `pip install scientific_papers_matplotlib`
+
+<!-- EXAMPLE -->
+## Example
+TBD...
 
 <!-- CONTRIBUTING -->
 ## Contributing
